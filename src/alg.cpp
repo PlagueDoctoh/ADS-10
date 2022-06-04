@@ -8,7 +8,7 @@
 std::vector<char> getPerm(const Tree& tree, int n) {
   std::string s = tree[n-1];
   std::vector<char>res;
-  for (int i = 0; i<s.size();) {
+  for (int i = 0; i < s.size();) {
     res.push_back(s[i]);
     i++;
   }

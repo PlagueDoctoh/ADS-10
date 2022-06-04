@@ -14,7 +14,7 @@ class Tree {
   std::vector<std::string> res;
 
   void moreTree(Node* root, std::vector<char> path) {
-    if (!path,size())
+    if (!path, size())
       return;
     if (root->value != '-') {
       for (auto  i = path.begin(); i != path.end(); i++) {
